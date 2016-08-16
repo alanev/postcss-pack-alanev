@@ -1,11 +1,5 @@
 module.exports = [
-	require('postcss-import')({
-		resolve: function(id, basedir, importOptions) {
-			if (!/(\\|\/|\.)/.test(id))
-				return glob.sync(paths.modules + id + '/*.scss');
-			return id;
-		}
-	}),
+	require('postcss-import')(),
 
 	require('postcss-property-shorthand')({
 		syntax: 'scss'
@@ -24,7 +18,7 @@ module.exports = [
 
 	// Helpers (shortcuts)
 	require('postcss-focus')(),
-	require('postcss-short'),
+	require('postcss-short')(),
 	require('lost')({
 		gutter: '0',
 		flexbox: 'flex'

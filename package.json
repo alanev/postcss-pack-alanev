@@ -42,6 +42,8 @@
     "webpcss": "^1.1.2"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "postcss": "^5.1.2",
+    "postcss-scss": "^0.1.9"
   }
 }

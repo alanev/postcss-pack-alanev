@@ -1,0 +1,47 @@
+{
+  "name": "postcss-pack-alanev",
+  "version": "1.0.0",
+  "description": "Plugin pack of the alanev team",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanev/postcss-pack-alanev.git"
+  },
+  "keywords": [
+    "postcss",
+    "pack",
+    "plugin"
+  ],
+  "author": "alanev <e@alanev.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanev/postcss-pack-alanev/issues"
+  },
+  "homepage": "https://github.com/alanev/postcss-pack-alanev#readme",
+  "dependencies": {
+    "ava": "^0.16.0",
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.7.3",
+    "lost": "^7.0.4",
+    "postcss-animation": "0.0.11",
+    "postcss-brand-colors": "^0.4.0",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-each": "^0.9.3",
+    "postcss-extend": "^1.0.5",
+    "postcss-focus": "^1.0.0",
+    "postcss-if-media": "^1.0.1",
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^5.0.1",
+    "postcss-nested": "^1.0.0",
+    "postcss-property-shorthand": "^1.0.0",
+    "postcss-short": "^1.4.0",
+    "postcss-simple-vars": "^3.0.0",
+    "webpcss": "^1.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}

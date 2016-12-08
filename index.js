@@ -35,7 +35,7 @@ module.exports = [
 	// Optimisations
 	require('css-mqpacker')(),
 	require('cssnano')({
-		core: false,
+		safe: true,
 		autoprefixer: false
 	})
 ]
